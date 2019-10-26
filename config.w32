@@ -1,0 +1,7 @@
+ARG_ENABLE('sample', 'sample support', 'no');
+
+if (PHP_SAMPLE != 'no') {
+	AC_DEFINE('HAVE_SAMPLE', 1, 'sample support enabled');
+
+	EXTENSION('sample', 'sample.c', null, '/DZEND_ENABLE_STATIC_TSRMLS_CACHE=1');
+}

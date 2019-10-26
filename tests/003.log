@@ -1,0 +1,10 @@
+
+---- EXPECTED OUTPUT
+string(11) "Hello World"
+string(9) "Hello PHP"
+---- ACTUAL OUTPUT
+Fatal error: Uncaught Error: Call to undefined function sample_test2() in /home/freeze/eclipse-workspace/php-7.3.8/ext/sample/tests/003.php:2
+Stack trace:
+#0 {main}
+  thrown in /home/freeze/eclipse-workspace/php-7.3.8/ext/sample/tests/003.php on line 2
+---- FAILED

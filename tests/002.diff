@@ -1,0 +1,6 @@
+001+ Fatal error: Uncaught Error: Call to undefined function sample_test1() in /home/freeze/eclipse-workspace/php-7.3.8/ext/sample/tests/002.php:2
+002+ Stack trace:
+001- The extension sample is loaded and working!
+002- NULL
+003+ #0 {main}
+004+   thrown in /home/freeze/eclipse-workspace/php-7.3.8/ext/sample/tests/002.php on line 2
